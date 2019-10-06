@@ -1,5 +1,5 @@
 import { AxiosRequestConfig } from './types'
-import xhr from './xhr'
+import xhr from './xhr/xhr'
 
 // config param is predefined by interface
 function axios(config: AxiosRequestConfig): void {

@@ -20,5 +20,5 @@ export interface AxiosRequestConfig {
   url: string
   method?: Method // predefined on above
   data?: any
-  param?: any
+  params?: any
 }
